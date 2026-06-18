@@ -25,7 +25,7 @@ For the Software Engineering and Design Category of my portfolio, I chose to enh
 
 This artifact is included in the ePortfolio because it represents a complete full-stack mobile development lifecycle, showcasing competencies in frontend UI/UX alignment, local database integration, and handling device hardware permissions. When submitting the project originally, I had not been able to set up a functional editing feature to allow users to make modifications to their weight entries. In the original version of the project, users would have needed to delete the entry then create a new entry, while functional this added increased steps for the user, and I wanted to fix this in my enhancement plan by writing logic to make edits, and by adding an edit button to the display to be consistent with the delete feature. 
   
-	In my enhancement plan proposal, the three course outcomes I intended to meet with the enhancement plan in this category were:
+In my enhancement plan proposal, the three course outcomes I intended to meet with the enhancement plan in this category were:
   
 •	Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
 
