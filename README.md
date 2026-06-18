@@ -14,3 +14,29 @@ A professional developer must maintain a proactive security mindset that anticip
 
 ### Code Review
 The following code review contains the artifacts shared in this portfolio. I go over each project separately discussing the existing functionality, any errors that will be corrected, and includes my plans to enhance each project to satisfy the course outcomes and demonstrate my skills.
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0Z7vfncw_fM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+### Enhancement One: Software Design and Engineering
+
+For the Software Engineering and Design Category of my portfolio, I chose to enhance the weight tracking app I created using Android Studio for my CS – 360 course. The selected artifact is a native Android mobile application designed to track user weight metrics over time and alert users via SMS text messages upon reaching milestones or targeted fitness goals. The core application logic is implemented in Java, utilizing an SQLite database for reliable data storage and management. The user interface is built using xml-based layouts styled with Material Components. The initial iteration of the application was developed in late 2025, with subsequent iterations and architectural refactoring completed in May 2026 to enhance security, user experience consistency, and data integrity.
+
+	This artifact is included in the ePortfolio because it represents a complete full-stack mobile development lifecycle, showcasing competencies in frontend UI/UX alignment, local database integration, and handling device hardware permissions. When submitting the project originally, I had not been able to set up a functional editing feature to allow users to make modifications to their weight entries. In the original version of the project, users would have needed to delete the entry then create a new entry, while functional this added increased steps for the user, and I wanted to fix this in my enhancement plan by writing logic to make edits, and by adding an edit button to the display to be consistent with the delete feature. 
+  
+	In my enhancement plan proposal, the three course outcomes I intended to meet with the enhancement plan in this category were:
+  
+•	Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
+
+•	Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+
+•	Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
+
+I feel I have achieved each of these outcomes in the completion of my enhancement plan. By converting hard coded strings within my main activity into string resources, this aligns with Android’s native localization engine. By moving strings into a resource file, it allows Android OS to convert these resources into another language based on user language preferences, allowing the app to be adapted to diverse audiences. In programming the editing logic, I needed to use my skills in computing practices to implement a computer solution to deliver value to the end user. This feature makes the application easier to use for the end user. I also needed to use a security mindset for this feature to ensure that any input passed by the user is validated before being passed into the database.
+
+	While enhancing the application, I noticed that some parts of the application needed better commenting, as some parts of the application took me longer to understand after revisiting the project after about six months. I also noticed that I had many hard-coded strings within my MainActivity file, and I wanted to fix this by adding them into my strings.xml resource file to make it easier to update in the future. Placing these into the resource file also allows android to translate them if the phone is set to another language, making the app more diverse for users.
+
+| Before Enhancement | After Enhancement |
+| :---: | :---: |
+| ![Original Layout](./Images/Cat1Before.png) | ![Enhanced Layout](./Images/Cat1After.png) |
