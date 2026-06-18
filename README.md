@@ -43,8 +43,8 @@ While enhancing the application, I noticed that some parts of the application ne
 
 | Version | Repository Source Link |
 | :--- | :--- |
-| **Original** | [View Original Code](./Artifact%20One/JoshuaTrabka%20Original%20Weight%20Tracker/JoshuaTrabkaP1) |
-| **Enhanced** | [View Enhanced Code](./Artifact%20One/JoshuaTrabka-EnhancementCat1/JoshuaTrabkaP1) |
+| **Original** | [View Original Code](./Artifacts/Artifact%20One/JoshuaTrabka%20Original%20Weight%20Tracker/JoshuaTrabkaP1) |
+| **Enhanced** | [View Enhanced Code](./Artifacts/Artifact%20One/JoshuaTrabka-EnhancementCat1/JoshuaTrabkaP1) |
 
 ### Enhancement Two: Data Structures and Algorithms
 
@@ -72,8 +72,8 @@ Initial iterations relied on sorting the relational list chronologically in memo
 
 | Version | Repository Source Link |
 | :--- | :--- |
-| **Original** | [View Original Code](./Artifact%20Two/JoshuaTrabka%20Original%20Weight%20Tracker/JoshuaTrabkaP1) |
-| **Enhanced** | [View Enhanced Code](./Artifact%20Two/JoshuaTrabka-EnhancementCat2/JoshuaTrabkaP1) |
+| **Original** | [View Original Code](./Artifacts/Artifact%20Two/JoshuaTrabka%20Original%20Weight%20Tracker/JoshuaTrabkaP1) |
+| **Enhanced** | [View Enhanced Code](./Artifacts/Artifact%20Two/JoshuaTrabka-EnhancementCat2/JoshuaTrabkaP1) |
 
 ### Category Three: Databases
 
@@ -105,6 +105,6 @@ Refactoring this project provided deep insight into the structural trade-offs be
 
 | Version | Repository Source Link |
 | :--- | :--- |
-| **Original** | [View Original Code](./Artifact%20Three/JoshuaTrabka%20Original%20Artifact) |
-| **Enhanced** | [View Enhanced Code](./Artifact%20Three/JoshuaTrabka-Enhancement3) |
+| **Original** | [View Original Code](./Artifacts/Artifact%20Three/JoshuaTrabka%20Original%20Artifact) |
+| **Enhanced** | [View Enhanced Code](./Artifacts/Artifact%20Three/JoshuaTrabka-Enhancement3) |
 
