@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme (Light mode forced) -->
+    <style name="Theme.WeightTracker" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Core Colors -->
+        <item name="colorPrimary">@color/primary_teal</item>
+        <item name="colorOnPrimary">@color/on_primary_white</item>
+        <item name="colorError">@color/error_red</item>
+        <item name="colorOnError">@color/on_error_white</item>
+
+
+        <item name="android:windowBackground">@color/surface_background_white</item>
+        <item name="android:colorBackground">@color/surface_background_white</item>
+        <item name="colorSurface">@color/surface_background_white</item>
+        <item name="colorOnSurface">@color/on_surface_dark_gray</item>
+
+
+        <item name="android:textColorPrimary">@color/on_surface_dark_gray</item>
+        <item name="android:textColorSecondary">@color/on_surface_dark_gray</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyLarge</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Material3.BodyLarge</item>
+    </style>
+
+    <!-- Custom Style for Primary Button (Filled, used for Log In, Submit Entry, Grant Permission) -->
+    <style name="Widget.AppTheme.ButtonPrimary" parent="Widget.Material3.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:backgroundTint">@color/primary_teal</item>
+        <item name="android:textColor">@color/on_primary_white</item>
+    </style>
+
+    <!-- Custom Style for Secondary Button (Text only, used for Create Account) -->
+    <style name="Widget.AppTheme.ButtonSecondary" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <!-- Menu for BottomNavigationView -->
+    <menu name="navigation_menu" xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/nav_data_grid" android:title="@string/nav_data_grid" android:icon="@drawable/ic_grid"/>
+        <item android:id="@+id/nav_sms" android:title="@string/nav_sms" android:icon="@drawable/ic_sms"/>
+    </menu>
+
+    <!-- Placeholder Drawables and Shapes -->
+    <drawable name="ic_grid">
+        <shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+            <size android:width="24dp" android:height="24dp"/>
+            <solid android:color="@color/primary_teal"/>
+        </shape>
+    </drawable>
+    <drawable name="ic_sms">
+        <shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+            <size android:width="24dp" android:height="24dp"/>
+            <solid android:color="@color/primary_teal"/>
+        </shape>
+    </drawable>
+    <drawable name="ic_delete">
+        <shape android:shape="oval" xmlns:android="http://schemas.android.com/apk/res/android">
+            <size android:width="24dp" android:height="24dp"/>
+            <solid android:color="@color/error_red"/>
+        </shape>
+    </drawable>
+    <drawable name="rounded_edittext_bg">
+        <shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/input_field_background_off_white"/>
+            <corners android:radius="8dp"/>
+            <stroke android:width="1dp" android:color="@color/outline_light_gray"/>
+        </shape>
+    </drawable>
+    <drawable name="rounded_card_bg_white">
+        <shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/login_card_background_white"/>
+            <corners android:radius="12dp"/>
+        </shape>
+    </drawable>
+
+</resources>
+

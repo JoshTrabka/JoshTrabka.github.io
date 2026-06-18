@@ -1,0 +1,10 @@
+dev-requirements.txt
+pyproject.toml
+JTCS499CAT3/__init__.py
+JTCS499CAT3/__main__.py
+JTCS499CAT3.egg-info/PKG-INFO
+JTCS499CAT3.egg-info/SOURCES.txt
+JTCS499CAT3.egg-info/dependency_links.txt
+JTCS499CAT3.egg-info/requires.txt
+JTCS499CAT3.egg-info/top_level.txt
+tests/test_JTCS499CAT3.py

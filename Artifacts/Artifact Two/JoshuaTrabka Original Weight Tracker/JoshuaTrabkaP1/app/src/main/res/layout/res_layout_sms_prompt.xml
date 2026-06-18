@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="top">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_sms_alert"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/explanation_sms"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Status of SMS Permission -->
+    <TextView
+        android:id="@+id/text_sms_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/status_sms_permission_needed"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Display for current target phone number -->
+    <TextView
+        android:id="@+id/text_sms_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_current_sms_number"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Button to handle both permission and number setting -->
+    <Button
+        android:id="@+id/button_grant_sms_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_grant_sms_permission"
+        android:padding="12dp"/>
+
+</LinearLayout>

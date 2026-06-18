@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <!-- TextView for displaying the Date -->
+    <TextView
+        android:id="@+id/text_item_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="01/01/2025" />
+
+    <!-- TextView for displaying the Weight -->
+    <TextView
+        android:id="@+id/text_item_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingStart="16dp"
+        android:text="200.0 lbs" />
+
+    <!-- Button/Icon for editing the entry -->
+    <ImageButton
+        android:id="@+id/button_item_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:contentDescription="Edit Entry" />
+
+</LinearLayout>
