@@ -95,7 +95,7 @@ Refactoring this project provided deep insight into the structural trade-offs be
 
 ##### Executive Analytics & Geospatial Dashboard
 <div align="center">
-  <img src="./Images/Cat3upper.jpg" width="95%" alt="Austin Animal Center Outcomes Dashboard" />
+  <img src="./Images/Cat3upper.png" width="95%" alt="Austin Animal Center Outcomes Dashboard" />
 </div>
 
 ##### Active Relational Engine Grid View (Secure Logs)
