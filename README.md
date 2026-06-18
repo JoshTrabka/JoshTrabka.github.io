@@ -40,3 +40,8 @@ While enhancing the application, I noticed that some parts of the application ne
 | Before Enhancement | After Enhancement |
 | :---: | :---: |
 | ![Original Layout](./Images/Cat1Before.png) | ![Enhanced Layout](./Images/Cat1After.png) |
+
+| Version | Repository Source Link |
+| :--- | :--- |
+| **Original** | [View Original Code](./Artifacts/JoshuaTrabka%20Original%20Weight%20Tracker/JoshuaTrabkaP1) |
+| **Enhanced** | [View Enhanced Code](./Artifacts/JoshuaTrabka-EnhancementCat1/JoshuaTrabkaP1) |
