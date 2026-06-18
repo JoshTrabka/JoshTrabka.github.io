@@ -45,3 +45,66 @@ While enhancing the application, I noticed that some parts of the application ne
 | :--- | :--- |
 | **Original** | [View Original Code](./Artifacts/JoshuaTrabka%20Original%20Weight%20Tracker/JoshuaTrabkaP1) |
 | **Enhanced** | [View Enhanced Code](./Artifacts/JoshuaTrabka-EnhancementCat1/JoshuaTrabkaP1) |
+
+### Enhancement Two: Data Structures and Algorithms
+
+For category two of my ePortfolio: Data Structures and Algorithms, I have chosen to enhance the weight tracking app that I built for my CS – 360 course. The selected artifact is a native mobile Android application developed in Android Studio using Java for the backend controller logic, an SQLite database for structured local data storage, and XML layouts for the frontend interface. The software provides comprehensive weight-tracking utilities, tracking metrics chronologically and issuing SMS mobile updates when specific fitness goals are met. Initially built as an academic project in late 2025, the application underwent rigorous structural, database, and algorithmic optimization in May 2026 to elevate its mathematical forecasting capabilities and improve data collection processing.
+
+This artifact is included in the Data Structures and Algorithms section of my ePortfolio because it showcases the practical application of data science modeling within a mobile runtime environment. Rather than relying on static CRUD operations or standard data loops, the enhanced application leverages complex mathematical calculations to provide meaningful predictive metrics to the end user.
+The primary component showcasing these skills is the predictive data module (WeightPredictor.java), which implements a statistical mathematical model to forecast fitness timelines. The application was structurally improved by introducing an algorithmic forecasting suite that dynamically computes a trendline based on user metrics. By tracking historical trends, the app determines the precise trajectory of a user's weight changes over time and automatically isolates the estimated calendar date they will arrive at their specified goal weight.
+
+In my module one enhancement plan proposal, I stated that my enhancement plan for category two would help me to reach the following outcomes:
+
+•	3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices
+
+•	4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals
+
+I believe that with my enhancement plan for this category, I have achieved both outcomes. For outcome three, I implemented algorithmic principles to implement a linear regression algorithm that gives the user a prediction as to when they will reach their goal weight. This implementation is appropriate to the solution since this new feature implements a high-value computing solution while successfully balancing the performance trade-offs of localized background math on a mobile processor.
+For outcome four, I met this outcome by implementing production-grade data validation thresholds and defensive data filtering inside the computational pipeline. Linear trendlines can become volatile or misleading when projected from insufficient data points. To deliver reliable value that meets industry-specific goals, I established an explicit boundary threshold that verifies collection sizes and suppresses calculation attempts unless a minimum of five valid database coordinates are present.
+
+Returning to a legacy codebase after a six-month hiatus emphasized how critical explicit data decoupling and structural defensive coding are to professional engineering practices. The primary technical challenge faced during development involved managing collection sequencing across the Model-View-Controller pattern when handing array elements from the SQLite database over to the mathematical regression loop.
+
+Initial iterations relied on sorting the relational list chronologically in memory and pulling boundary array indices (get(0) and get(n-1)) to establish baseline tracking references. However, live debugging revealed that re-ordering list instances inside memory could create layout synchronization anomalies depending on how active view adapters interacted with the underlying database pointer references. I overcame this obstacle by refactoring the WeightPredictor engine to run an independent, non-destructive iterative search loop that parses raw long-integer timestamps to isolate the true historical baseline and endpoints manually. This adjustment completely removed array sorting dependencies, resulting in a resilient data pipeline capable of producing precise, reliable projections across variable user data environments.
+
+<div align="center">
+  <img src="./Images/Cat2After.png" width="75%" alt="Enhanced Weight Tracker UI" />
+</div>
+
+| Version | Repository Source Link |
+| :--- | :--- |
+| **Original** | [View Original Code](./Artifacts/JoshuaTrabka%20Original%20Weight%20Tracker/JoshuaTrabkaP1) |
+| **Enhanced** | [View Enhanced Code](./Artifacts/JoshuaTrabka-EnhancementCat2/JoshuaTrabkaP1) |
+
+### Category Three: Databases
+
+For category three of my ePortfolio: Databases, I have chosen to enhance my project from CS – 340. The project consisted of a mongo NoSQL database, a python file containing CRUD logic (Create, Read, Update, Delete), and a python file to set up a dashboard using jupyter dash to display a map of the animals from the aac animal outcomes database, and a data table filterable by appropriate rescue types. Initially built for a course project in 2025, I decided to migrate the data into a star schema relational database through MySQL, develop a script to migrate the aac dataset into the relational databast, and adjust my CRUD and dashboard files to make the dashboard more intuitive.
+
+This artifact is a core inclusion in my ePortfolio because it showcases a sophisticated software engineering achievement: translating an existing application from a NoSQL paradigm to an optimized relational structure. This process proves my advanced capabilities in data modeling, systems migration, and full-stack integration.
+
+To demonstrate professional-grade software development skills, the artifact was improved through architectural enhancements:
+
+•	Database Paradigm Migration (NoSQL to Relational Star Schema): The underlying database architecture was completely decoupled from MongoDB and rebuilt using a normalized relational model in MySQL. To optimize analytical query performance, I designed a Star Schema layout. This involved extracting flat data into structural dimensions—Dim_Animals (tracking breed, type, and color attributes) and Dim_Outcomes (tracking operational metrics)—and linking them to a central Fact_Shelter_Outcomes transaction table using foreign key constraints.
+
+In my module one assignment, I stated that this project would meet three course outcomes, I believe that through this category of my enhancement plan satisfied the following course outcomes: 
+
+•	Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts: This was directly satisfied by engineering the interactive Dash web application layout to deliver a clear visual interface. Raw, unformatted relational tables were transformed into clean, real-time KPI data metric boxes and professional geospatial map distribution components. These visual layers wrap complex data structures into an intuitive, interactive experience adapted specifically for business managers and non-technical animal shelter stakeholders.
+•	Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals: This outcome was achieved by integrating industry-standard tools to construct a fully integrated data pipeline. Moving the foundational project from simple, document-centric scripts into an enterprise-aligned setup—utilizing Jupyter Notebook for custom pipeline operations, MySQL Server for robust backend data persistence, and Dash by Plotly for modern application serving—delivers distinct operational value. It establishes a replicable framework for real-time tracking of intake logs and outcomes.
+•	Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources: This outcome was satisfied by isolating and decoupling administrative credential management within the source code configuration. Hardcoded variables were structured strictly inside backend logic modules to mitigate common architecture flaws such as exposure vulnerabilities on frontend clients. Furthermore, implementing parameterized queries within the custom object-oriented Python CRUD service layer (animal_shelter_crud.py) shields the relational backend database from SQL Injection vulnerabilities, demonstrating a security-first design mindset.
+
+Refactoring this project provided deep insight into the structural trade-offs between schema-on-read (NoSQL) and schema-on-write (Relational) engines. I learned that while NoSQL offers rapid prototyping flexibility, an optimized relational Star Schema provides superior data integrity, precise data typing, and highly performant analytical aggregations for complex dashboards. The biggest engineering hurdle was transforming the flat, unvalidated historical data into clean relational records. I had to write meticulous transformation logic in a Jupyter Notebook to handle missing records, enforce data types, map foreign keys accurately, and split strings into separate dimension rows without dropping records.
+
+##### Executive Analytics & Geospatial Dashboard
+<div align="center">
+  <img src="./Artifacts/images/Cat3upper.jpg" width="95%" alt="Austin Animal Center Outcomes Dashboard" />
+</div>
+
+##### Active Relational Engine Grid View (Secure Logs)
+<div align="center">
+  <img src="./Artifacts/images/Cat3lower.png" width="95%" alt="Active Relational Engine Grid View" />
+</div>
+
+| Version | Repository Source Link |
+| :--- | :--- |
+| **Original** | [View Original Code](./Artifacts/JoshuaTrabka%20Original%20Artifact) |
+| **Enhanced** | [View Enhanced Code](./Artifacts/JoshuaTrabka-Enhancement3) |
+
