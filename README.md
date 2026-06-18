@@ -98,7 +98,7 @@ Refactoring this project provided deep insight into the structural trade-offs be
   <img src="./Images/Cat3upper.png" width="95%" alt="Austin Animal Center Outcomes Dashboard" />
 </div>
 
-##### Active Relational Engine Grid View (Secure Logs)
+##### Active Relational Engine Grid View
 <div align="center">
   <img src="./Images/Cat3lower.png" width="95%" alt="Active Relational Engine Grid View" />
 </div>
